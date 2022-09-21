@@ -22,7 +22,7 @@ module "Resourcegroup" {
  
  module "Resourcegroup" {
     source ="./Resourcegroup"
-    resourcegroup = "mytestrg"
+    resourcegroup = "myrg335"
     location = "east us"
     storageaccountname = "newstracctest11"
    
