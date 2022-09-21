@@ -16,8 +16,18 @@ module "Resourcegroup" {
     source ="./Resourcegroup"
     resourcegroup = "myrg335"
     location = "east us"
-    storageaccountname = "newstracc001122"
 
   
 }
+ 
+ module "Resourcegroup" {
+    source ="./Resourcegroup"
+    resourcegroup = "myrg335"
+    location = "east us"
+    storageaccountname = "newstracc001122"
+   
+ }
+
+
+
 
